@@ -34,6 +34,7 @@ li{
 	display: inline-block;
 	width: 33%;
 	padding-top: 0;
+	text-align: center;
 }
 .column3{
 	display: inline-block;
@@ -115,13 +116,16 @@ li{
 	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
 	height: 200px;
 	width: 90%;
+	margin: 20px auto;
 	background-size:100% 100%;
 	position: relative;
+	display: block;
 }
 .about-container{
 	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
 	height: 200px;
 	width: 90%;
+	margin: 0 auto;
 	background-size:100% 100%;
 	position: relative;
 }
@@ -129,6 +133,7 @@ li{
 	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
 	height: 200px;
 	width: 90%;
+	margin: 0 auto;
 	background-size:100% 100%;
 	position: relative;
 }
@@ -136,6 +141,7 @@ li{
 	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
 	height: 200px;
 	width: 90%;
+	margin: 0 auto;
 	background-size:100% 100%;
 	position: relative;
 }
