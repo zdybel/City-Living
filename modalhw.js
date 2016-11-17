@@ -8,7 +8,7 @@ Is it a pop-up ad? Is it a prompt to get the
 user to enter their email address to sign up for
 the company newsletter? Is it a prompt to get
 the user to share this page on Facebook? You decide but
- make it look as professional as possible.
+make it look as professional as possible.
 
 The modal appears after 3 seconds of being on the web page.
 JavaScript is fully functional and throws no errors
@@ -20,18 +20,19 @@ Proper CSS formatting
 */
 
 
-window.setTimeout(showModal, 3000);
+window.setTimeout(showModal, 1000);
 
-
+var closeVar = document.getElementById('close');
 var modalVar = document.getElementById('timedModal');
 var modalContentVar = document.getElementById('modalContent');
 var modalTextVar = document.getElementById('modalText');
 
 
-document.getElementById.addEventListener('click', hideModal)
+closeVar.addEventListener('click', hideModal);
+
 
 function hideModal(){
-	modalVar.style.display = none;
+	modalVar.style.display = "none";
 }
 
 function showModal(){

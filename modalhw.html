@@ -14,13 +14,70 @@ Proper CSS formatting-!>
 <head>
 	<title>Modal!</title>
 	<link rel="stylesheet" href="modalhw.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-	<h1> Header! </h1>
+	<div class = "top-bar">
+		<div class = "title-statement">
+			<h1 class = "header-title"> City Living Philadelphia</h1>
+			<h2 class = "mission-statement">Enjoy living your city life.</h2>
+		</div>
+		<ul>
+			<li>Our Mission Statement</li>
+			<li>Our Representatives</li>
+			<li>Our Enrollment</li>
+		</ul>
+	</div>
 	<div class = "modalDiv" id = "timedModal">
 		<div class = "content" id = "modalContent">
-		 	<span id= "close">x</span>
-			<p class= "text" id = "modalText">This is the modal.</p>
+			<h2 class = "modal-header"> With a little information...</h2>
+			<label for = "desire">Name one action you would take if you had time</label><br>
+			<input name = "desire" type = "name" id = "desire"><br>
+			<label for = "duty">Name one duty you complete that interferes with implementing this action?</label><br>
+			<input name = "duty" type = "name" id = "duty"><br>
+			<label for = "name">What is your name?</label><br>
+			<input name = "name" type = "name" id = "name"><br>
+			<label for = "contact">How may we reach you?</label><br>
+			<input name = "contact" type = "name" id = "contact"><br>
+			<button id = "modalButton">...you can transform your life.</button>
+		 	<span id ="close">I will go to "Our Enrollment" instead</span>
+		</div>
+	</div>
+	<div class = "body-container">
+		<div class = "column1">
+			<div class = "freetime-container">
+				<p class = "image-label">Stop wishing for more freetime</p>
+			</div>
+			<div class = "about-container">
+				<p class = "image-label">About City Living Philadelphia</p>
+			</div>
+		</div>
+		<div class = "column2">
+			<div class = "socialmedia-icons">
+			</div>
+			<p class = "quote"> "This is an awesome quote"</p>
+			<p class = "subtitle"> This is the subtitle</p>
+		</div>
+		<div class = "column3">
+			<div class = "representatives-container">
+				<p class = "image-label">Meet our representatives</p>
+			</div>
+			<div class = "testimonials-container">
+				<p class = "image-label">How we enhanced other Philadelphians lives.</p>
+			</div>
+		</div>
+	</div>
+	<div class = "footer-container">
+		<div class = "contact-container">
+			<p class = "contact">610-345-9978</p>
+			<p class = "contact">@CityLivingPhiladelphia</p>
+			<p class = "contact">citylivingphiladelphia@gmail.com</p>
+		</div>
+		<div class = "socialmedia-icons">
+			<p>TEST</p>
+		</div>
+		<div class = "signup-container">
+			<p> Sign up to receive information </p>
 		</div>
 	</div>
 <script type="text/javascript" src="modalhw.js"></script>
