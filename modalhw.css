@@ -94,19 +94,44 @@ li{
 	width: 33%;
 	margin: 0 auto;
 	padding-top: 0;
-	text-align: center;
+	text-align: left;
+	position: relative;
+}
+.footer-contacts{
+	position: absolute;
+	top: 5px;
+	left: 10px;
 }
 .contact{
 	display: block;
 	width: 90%;
 	margin: 0 auto;
 }
-.socialmedia-icons{
+.column2-socialmedia{
+	position: absolute;
+	bottom: 650px;
+	left: 35px;
+}
+.column2-icons{
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	letter-spacing: 2px;
+}
+.footer-socialmedia{
 	display: inline-block;
 	width: 33%;
 	margin: 0 auto;
 	padding-top: 0;
 	text-align: center;
+	position: relative;
+}
+.footer-icons{
+	position: absolute;
+	top: 30px;
+	right: 150px;
 }
 .signup-container{
 	display: inline-block;
@@ -114,6 +139,12 @@ li{
 	margin: 0 auto;
 	padding-top: 0;
 	text-align: center;
+	position: relative;
+}
+.signup-text{
+	position: absolute;
+	top: 30px;
+	right: 30px;
 }
 .image-label{
 	background-color: black;
