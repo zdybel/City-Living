@@ -18,7 +18,7 @@ ul{
 	opacity: 0.5;
 	position: absolute;
 	bottom: 0px;
-	font-size: 18px;
+	font-size: 22px;
 }
 li{
 	display: inline-block;
@@ -51,7 +51,7 @@ li{
 }
 .title-statement{
 	position: absolute;
-	top: 30px;
+	top: 40px;
 	right: 20px;
 	margin: 0px;
 }
@@ -74,13 +74,14 @@ li{
 }
 .top-bar{
 	background-image: url("http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/philadelphia-skyline-panorama-susan-candelario.jpg");
-	height: 450px;
+	height: 600px;
 	background-size:100% 100%;
 	position: relative;
+	letter-spacing: 2px;
 }
 .header-title{
 	color: white;
-	font-size: 62px;
+	font-size: 72px;
 	margin: 0px;
 }
 .footer-container{
@@ -261,16 +262,73 @@ li{
 
  /*end laptop large*/
 
-@media all and (min-width: 768px) and (max-width: 979px){
+@media all and (min-width: 768px) and (max-width: 1024px){
 	/*laptop normal*/
-	} /* end laptop normal*/
+
+	.top-bar{
+	height: 450px;
+	} 
+	.freetime-container{
+	height: 180px;
+	}
+	.about-container{
+		height: 390px;
+	}
+	.representatives-container{
+		height: 350px;
+	}
+	.testimonials-container{
+		height: 160px;
+	}
+	.image-label{
+		font-size: 12px;
+	}
+	.footer-icons{
+		right: 80px;
+	}
+
+}/* end laptop normal*/
+
 
 @media all and (max-width: 767px){
 	/*tablet*/
+	
+	.topbar{
+		height: 350px;
+	}
+	.freetime-container{
+		height: 140px;
+	}
+	.about-container{
+		height: 350px;
+	}
+	.representatives-container{
+		height: 300px;
+	}
+	.testimonials-container{
+		height: 130px;
+	}
 	} /*end tablet*/
 @media all and (max-width: 480px){
 	/*mobile*/
+
+	.topbar{
+		height: 200px;
+	}
 	.quote{
 		display: none;
 	}
+	.freetime-container{
+		height: 100px;
+	}
+	.about-container{
+		height: 240px;
+	}
+	.representatives-container{
+		height: 200px;
+	}
+	.testimonials-container{
+		height: 90px;
+	}
+
 }/*end mobile*/
