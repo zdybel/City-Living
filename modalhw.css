@@ -3,6 +3,7 @@
 body{
 	font-family: Baskerville, “Baskerville Old Face”, “Hoefler Text”, Garamond, “Times New Roman”, serif;
 	position: relative;
+	letter-spacing: 0.75px;
 }
 h2{
 
@@ -14,6 +15,7 @@ ul{
 	opacity: 0.5;
 	position: absolute;
 	bottom: 0px;
+	font-size: 18px;
 }
 li{
 	display: inline-block;
@@ -31,7 +33,7 @@ li{
 }
 .column1{
 	display: inline-block;
-	width: 33%;
+	width: 30%;
 }
 .column2{
 	display: inline-block;
@@ -42,7 +44,7 @@ li{
 }
 .column3{
 	display: inline-block;
-	width: 33%;
+	width: 30%;
 }
 .title-statement{
 	position: absolute;
@@ -90,21 +92,26 @@ li{
 .contact-container{
 	display: inline-block;
 	width: 33%;
+	margin: 0 auto;
 	padding-top: 0;
 	text-align: center;
 }
 .contact{
-	margin:0;
+	display: block;
+	width: 90%;
+	margin: 0 auto;
 }
 .socialmedia-icons{
 	display: inline-block;
 	width: 33%;
+	margin: 0 auto;
 	padding-top: 0;
 	text-align: center;
 }
 .signup-container{
 	display: inline-block;
 	width: 33%;
+	margin: 0 auto;
 	padding-top: 0;
 	text-align: center;
 }
@@ -119,7 +126,7 @@ li{
 }
 .freetime-container{
 	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
-	height: 200px;
+	height: 220px;
 	width: 90%;
 	margin: 20px auto;
 	background-size:100% 100%;
@@ -199,16 +206,16 @@ li{
 	position: absolute;
 	top: 0;
 	right: 0;
+	padding: 0px 5px;
 }
 #close:hover{
 	background-color: white;
 	color: black;
-
 }
 #modalText{
 
 }
-#contact{
+#modalContact{
 	margin-bottom: 30px;
 }
 #modalButton{
