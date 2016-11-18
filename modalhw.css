@@ -20,6 +20,9 @@ li{
 	padding-left: 20px;
 	padding-right: 20px;
 }
+.linked-words{
+	color: white;
+}
 .body-container{
 	display: block;
 	width: 80%;
@@ -33,8 +36,9 @@ li{
 .column2{
 	display: inline-block;
 	width: 33%;
-	padding-top: 0;
+	margin: 0px;
 	text-align: center;
+	position: relative;
 }
 .column3{
 	display: inline-block;
@@ -54,7 +58,7 @@ li{
 	margin-top: 5px;
 	padding-right: 50px;
 }
-.modalDiv{
+.modal-div{
 	}
 .content{
 
@@ -111,6 +115,7 @@ li{
 	position: absolute;
 	bottom: 0px;
 	display: block;
+	padding-left: 10px;
 }
 .freetime-container{
 	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
@@ -122,28 +127,53 @@ li{
 	display: block;
 }
 .about-container{
-	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
-	height: 200px;
+	background-image: url("http://41.media.tumblr.com/3ec0976f73ae933fbd873aa5458b8891/tumblr_nemadsiQxC1ttxb55o1_r2_500.png");
+	background-size: 100% 100%;
+	height: 450px;
 	width: 90%;
-	margin: 0 auto;
-	background-size:100% 100%;
+	margin: 100px auto 30px auto;
 	position: relative;
+	display: block;
 }
 .representatives-container{
-	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
-	height: 200px;
+	background-image: url("https://c.stocksy.com/a/5nq000/z0/202931.jpg");
+	height: 450px;
 	width: 90%;
-	margin: 0 auto;
+	margin: 20px auto;
 	background-size:100% 100%;
 	position: relative;
+	display: block;
 }
 .testimonials-container{
-	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
+	background-image: url("http://www.massvacation.com/wp-content/uploads/2013/06/83_fine-dining_0000_7656940918_2a574e951c_b.jpg");
 	height: 200px;
 	width: 90%;
-	margin: 0 auto;
+	margin: 80px auto 80px auto;
 	background-size:100% 100%;
 	position: relative;
+	display: block;
+}
+.quote-container{
+	position: absolute;
+	bottom: 200px;
+}
+.quote{
+	font-size: 30px;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	letter-spacing: 2px;
+}
+.quote-accent{
+	font-style: italic;
+	letter-spacing: 3px;
+	font-size: 34px;
+}
+.subtitle{
+	font-size: 14px;
+	display:block;
+	width: 100%;
+	margin: 20px auto;
 }
 #timedModal{
 	width: 100%;
@@ -161,8 +191,6 @@ li{
 	text-align: center;
 	background-color: #ffb6c1;
 	font-size: 14px;
-	border: solid 10px purple;
-	border-radius: 5px;
 	padding-bottom: 5px;
 	position: relative;
 }

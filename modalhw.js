@@ -20,7 +20,7 @@ Proper CSS formatting
 */
 
 
-window.setTimeout(showModal, 1000);
+//window.setTimeout(showModal, 1000);
 
 var closeVar = document.getElementById('close');
 var modalVar = document.getElementById('timedModal');
