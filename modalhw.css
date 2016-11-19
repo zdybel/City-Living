@@ -1,6 +1,3 @@
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
-
-
 /*laptop large*/
 
 body{
@@ -81,9 +78,12 @@ li{
 }
 .header-title{
 	color: white;
-	font-size: 72px;
+	font-size: 82px;
 	margin: 0px;
 }
+.mission-statement{
+		font-size: 32px;
+	}
 .footer-container{
 	background-color: black;
 	color: white;
@@ -159,6 +159,17 @@ li{
 	bottom: 0px;
 	display: block;
 	padding-left: 10px;
+	font-size: 18px;
+}
+.image-label-tablet{
+	background-color: black;
+	color: white;
+	opacity: 0.5;
+	position: absolute;
+	bottom: 0px;
+	display: none;
+	padding-left: 10px;
+	font-size: 14px;
 }
 .freetime-container{
 	background-image: url("http://media.gq.com/photos/57e58f7fbeed5f275b337f8f/master/pass/watch-of-the-week-hublot-02.jpg");
@@ -259,12 +270,15 @@ li{
 	width: 40%;
 	margin: 0 auto;
 }
-
  /*end laptop large*/
 
-@media all and (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1024px){
 	/*laptop normal*/
 
+	li{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
 	.top-bar{
 	height: 450px;
 	} 
@@ -281,38 +295,113 @@ li{
 		height: 160px;
 	}
 	.image-label{
-		font-size: 12px;
+		font-size: 14px;
 	}
 	.footer-icons{
 		right: 80px;
+	}
+	.header-title{
+		font-size: 60px;
+	}
+	.mission-statement{
+		font-size: 22px;
+	}
+	.column2-socialmedia{
+		bottom: 575px;
+		left: 20px;
+	}
+	.column2-icons{
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.quote-container{
+		bottom: 150px;
+	}
+	.quote{
+		font-size: 28px;
+	}
+	.quote-accent{
+		font-size: 32px;
 	}
 
 }/* end laptop normal*/
 
 
-@media all and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
 	/*tablet*/
 	
-	.topbar{
+	.top-bar{
 		height: 350px;
+	}
+	li{
+		padding-right: 5px;
+		padding-left: 5px;
+		font-size: 16px;
+	}
+	.image-label{
+		display: none;
+	}
+	.image-label-tablet{
+		display: block;
 	}
 	.freetime-container{
 		height: 140px;
 	}
 	.about-container{
-		height: 350px;
-	}
-	.representatives-container{
 		height: 300px;
 	}
-	.testimonials-container{
-		height: 130px;
+	.representatives-container{
+		height: 260px;
 	}
-	} /*end tablet*/
+	.testimonials-container{
+		height: 120px;
+	}
+	.header-title{
+		font-size: 42px;
+	}
+	.mission-statement{
+		font-size: 18px;
+	}
+	.column2-socialmedia{
+		bottom: 525px;
+		left: 8px;
+	}
+	.column2-icons{
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	.quote-container{
+		bottom: 100px;
+	}
+	.quote{
+		font-size: 24px;
+	}
+	.quote-accent{
+		font-size: 30px;
+	}
+	.footer-icons{
+		top: 0px;
+		right: 0px;
+	}
+	.signup-container{
+		float: right;
+	}
+	.signup-text{
+		top: 15px;
+		right: 15px;
+	}
+	.footer-container{
+		height: 100px;
+	}
+	.footer-contacts{
+		top: 5px;
+		left: 10px;
+	}
+} /*end tablet*/
 @media all and (max-width: 480px){
 	/*mobile*/
 
-	.topbar{
+	.top-bar{
 		height: 200px;
 	}
 	.quote{

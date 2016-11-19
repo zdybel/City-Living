@@ -20,7 +20,7 @@ Proper CSS formatting
 */
 
 
-window.setTimeout(showModal, 1000);
+//window.setTimeout(showModal, 3000);
 
 var closeVar = document.getElementById('close');
 var modalVar = document.getElementById('timedModal');
@@ -38,6 +38,8 @@ function hideModal(){
 function showModal(){
 	modalVar.style.display = "block";
 }
+
+
 
 
 
