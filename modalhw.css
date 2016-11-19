@@ -15,7 +15,8 @@ ul{
 	opacity: 0.5;
 	position: absolute;
 	bottom: 0px;
-	font-size: 22px;
+	font-size: 36px;
+	margin: 20px 0px;
 }
 li{
 	display: inline-block;
@@ -72,7 +73,7 @@ li{
 .top-bar{
 	background-image: url("http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/philadelphia-skyline-panorama-susan-candelario.jpg");
 	height: 600px;
-	background-size:100% 100%;
+	background-size: 100% 100%;
 	position: relative;
 	letter-spacing: 2px;
 }
@@ -82,8 +83,11 @@ li{
 	margin: 0px;
 }
 .mission-statement{
-		font-size: 32px;
+	font-size: 32px;
 	}
+.tab-mobile{
+	display: none;
+}
 .footer-container{
 	background-color: black;
 	color: white;
@@ -225,7 +229,7 @@ li{
 }
 .subtitle{
 	font-size: 14px;
-	display:block;
+	display: block;
 	width: 100%;
 	margin: 20px auto;
 }
@@ -275,15 +279,23 @@ li{
 @media (min-width: 769px) and (max-width: 1024px){
 	/*laptop normal*/
 
+	ul{
+		margin: 15px 0px; 
+		font-size: 24px;
+	}
 	li{
-		padding-right: 10px;
-		padding-left: 10px;
+		padding-right: 15px;
+		padding-left: 15px;
 	}
 	.top-bar{
-	height: 450px;
+		height: 450px;
 	} 
+	.title-statement{
+		top: 20px;
+		right: 15px;
+	}
 	.freetime-container{
-	height: 180px;
+		height: 180px;
 	}
 	.about-container{
 		height: 390px;
@@ -328,15 +340,22 @@ li{
 
 
 @media (min-width: 481px) and (max-width: 768px){
-	/*tablet*/
+	/*tablet*/ 
 	
 	.top-bar{
 		height: 350px;
 	}
-	li{
-		padding-right: 5px;
-		padding-left: 5px;
+	.title-statement{
+		top: 15px;
+		right: 10px;
+	}
+	ul{
+		margin: 10px 0px;
 		font-size: 16px;
+	}
+	li{
+		padding-right: 10px;
+		padding-left: 10px;
 	}
 	.image-label{
 		display: none;
@@ -398,26 +417,122 @@ li{
 		left: 10px;
 	}
 } /*end tablet*/
+
 @media all and (max-width: 480px){
 	/*mobile*/
 
+	.title-statement{
+		top: 15px;
+		right: 5px;
+		letter-spacing: normal;
+	}
+	ul{
+		margin: 5px auto;
+		font-size: 12px;
+	}
+	li{
+		padding-left: 0px;
+		padding-right: 5px;
+	}
 	.top-bar{
 		height: 200px;
 	}
-	.quote{
+	.header-title{
+		font-size: 26px;
+	}
+	.mission-statement{
 		display: none;
 	}
+	.tab{
+		display: none;
+	}
+	.tab-mobile{
+		display: inline-block;
+	}
+	.column1{
+		display: block;
+		width: 80%;
+		margin: 20px auto;
+	}
+	.column2{
+		display: block;
+		position: static;
+		width: 80%;
+		margin: 60px auto;
+	}
+	.column2-socialmedia{
+		position: static;
+		margin: 40px auto 80px auto;
+	}
+	.column2-icons{
+		position: static;
+		font-size: 18px;
+	}
+	.quote-container{
+		position: static;
+	}
+	.column3{
+		display: block;
+		width: 80%;
+		margin: 20px auto;
+	}
+	.image-label{
+		display: none;
+	}
+	.image-label-tablet{
+		display: block;
+		font-size: 20px;
+	}
 	.freetime-container{
-		height: 100px;
+		height: 160px;
 	}
 	.about-container{
-		height: 240px;
+		height: 340px;
+		margin: 80px auto;
 	}
 	.representatives-container{
-		height: 200px;
+		height: 350px;
 	}
 	.testimonials-container{
-		height: 90px;
+		height: 140px;
+		margin: 80px auto;
+	}
+	.footer-container{
+		display: static;
+		height: 200px;
+	}
+	.contact-container{
+		display: block;
+		position: static;
+		width: 100%;
+		margin: 10px auto;
+		text-align: center;
+	}
+	.footer-contacts{
+		position: static;
+	}
+	.footer-socialmedia{
+		display: block;
+		position: static;
+		width: 100%;
+		margin: 40px auto;
+	}
+	.footer-icons{
+		position: static;
+	}
+	.signup-container{
+		display: block;
+		position:static;
+		width: 100%;
+		margin: 10px auto;
+	}
+	.signup-text{
+		position:static;
 	}
 
 }/*end mobile*/
+
+
+
+
+
