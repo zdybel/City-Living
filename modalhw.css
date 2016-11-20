@@ -355,7 +355,37 @@ li{
 	.quote-accent{
 		font-size: 32px;
 	}
-
+	#desire{
+		font-size: 28px;
+		height: 32px;
+		margin: 8px;
+	}
+	#duty{
+		font-size: 28px;
+		height: 32px;
+		margin: 8px;
+	}
+	#name{
+		font-size: 28px;
+		height: 32px;
+		margin: 8px;
+	}
+	#modalContact{
+		font-size: 28px;
+		height: 32px;
+		margin: 8px;
+	}
+	#modalButton{
+		font-size: 26px;
+		width: 50%;
+		margin: 40px auto 20px auto;
+	}
+	#modalContent{
+	font-size: 30px;
+	}
+#close{
+	font-size: 32px;
+	}
 }/* end laptop normal*/
 
 
