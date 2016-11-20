@@ -23,12 +23,14 @@ Proper CSS formatting
 window.setTimeout(showModal, 500);
 
 var closeVar = document.getElementById('close');
+var closeXVar = document.getElementById('closeX');
 var modalVar = document.getElementById('timedModal');
 var modalContentVar = document.getElementById('modalContent');
 var modalTextVar = document.getElementById('modalText');
 
 
 closeVar.addEventListener('click', hideModal);
+closeXVar.addEventListener('click', hideModal);
 
 
 function hideModal(){

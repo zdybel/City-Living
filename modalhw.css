@@ -252,6 +252,9 @@ li{
 	padding: 20px 0px;
 	position: relative;
 }
+.modal-header-mobile{
+		display: none;
+	}
 #close{
 	font-size: 38px;
 	position: absolute;
@@ -280,8 +283,10 @@ li{
 	color: white;
 	margin-top: 5px;
 	margin-right: 5px;
+	display: none;
 }
 #closeX:hover{
+	display: none;
 	background-color: white;
 	color: black;
 	opacity:1;
@@ -289,29 +294,50 @@ li{
 #desire{
 	font-size: 34px;
 	height: 40px;
-	margin: 10px;
+	margin: 80px;
 }
 #duty{
 	font-size: 34px;
 	height: 40px;
-	margin: 10px;
+	margin: 80px;
 }
 #name{
 	font-size: 34px;
 	height: 40px;
-	margin: 10px;
+	margin: 80px;
 }
 #modalContact{
 	font-size: 34px;
 	height: 40px;
-	margin: 10px;
+	margin: 80px;
 }
 #modalButton{
 	font-size: 32px;
 	width: 50%;
 	margin: 50px auto 30px auto;
 }
+#modalButton-mobile{
+	display: none;
+	font-size: 24px;
+	width: 80%;
+	margin: 50px auto 15px auto;
+}
+#labelDesire-mobile{
+	display: none;
+}
+#labelDuty-mobile{
+	display: none;
+}
+#labelName-mobile{
+	display: none;
+}
+#labelContact-mobile{
+	display: none;
+}
+
+
  /*end laptop large*/
+
 
 @media (min-width: 769px) and (max-width: 1024px){
 	/*laptop normal*/
@@ -658,10 +684,11 @@ li{
 		height: 24px;
 		margin: 4px;
 	}
+	#modalButton-mobile{
+		display: block;
+	}
 	#modalButton{
-		font-size: 16px;
-		width: 40%;
-		margin: 15px auto 5px auto;
+		display: none;
 	}
 	#modalContent{
 		font-size: 20px;
@@ -671,6 +698,36 @@ li{
 	}
 	#close{
 		display: none;
+	}
+	.modal-header{
+		display: none;
+	}
+	.modal-header-mobile{
+		display: block;
+	}
+	#labelDesire{
+		display: none;
+	}
+	#labelDuty{
+		display: none;
+	}
+	#labelDesire-mobile{
+		display: block;
+	}
+	#labelDuty-mobile{
+		display: block;
+	}
+	#labelName{
+		display: none;
+	}
+	#labelName-mobile{
+		display: block;
+	}
+	#labelContact{
+		display: none;
+	}
+	#labelContact-mobile{
+		display: block;
 	}
 
 }/*end mobile*/
