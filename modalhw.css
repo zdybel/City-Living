@@ -269,6 +269,23 @@ li{
 	color: black;
 	opacity: 1;
 }
+#closeX{
+	font-size: 28px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0px 5px;
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#closeX:hover{
+	background-color: white;
+	color: black;
+	opacity:1;
+}
 #desire{
 	font-size: 34px;
 	height: 40px;
@@ -355,6 +372,9 @@ li{
 	.quote-accent{
 		font-size: 32px;
 	}
+	#timedModal{
+		top: 140px;
+	}
 	#desire{
 		font-size: 28px;
 		height: 32px;
@@ -381,10 +401,10 @@ li{
 		margin: 40px auto 20px auto;
 	}
 	#modalContent{
-	font-size: 30px;
+		font-size: 30px;
 	}
-#close{
-	font-size: 32px;
+	#close{
+		font-size: 32px;
 	}
 }/* end laptop normal*/
 
@@ -465,6 +485,41 @@ li{
 	.footer-contacts{
 		top: 5px;
 		left: 10px;
+	}
+	#desire{
+		font-size: 22px;
+		height: 28px;
+		margin: 6px;
+	}
+	#timedModal{
+		top: 100px;
+		height: 95%;
+	}
+	#duty{
+		font-size: 22px;
+		height: 28px;
+		margin: 6px;
+	}
+	#name{
+		font-size: 22px;
+		height: 28px;
+		margin: 6px;
+	}
+	#modalContact{
+		font-size: 22px;
+		height: 28px;
+		margin: 6px;
+	}
+	#modalButton{
+		font-size: 20px;
+		width: 50%;
+		margin: 30px auto 10px auto;
+	}
+	#modalContent{
+		font-size: 20px;
+	}
+	#close{
+		font-size: 28px;
 	}
 } /*end tablet*/
 
@@ -578,6 +633,44 @@ li{
 	}
 	.signup-text{
 		position:static;
+	}
+	#desire{
+		font-size: 18px;
+		height: 24px;
+		margin: 4px;
+	}
+	#timedModal{
+		top: 60px;
+		height: 100%;
+	}
+	#duty{
+		font-size: 18px;
+		height: 24px;
+		margin: 4px;
+	}
+	#name{
+		font-size: 18px;
+		height: 24px;
+		margin: 4px;
+	}
+	#modalContact{
+		font-size: 18px;
+		height: 24px;
+		margin: 4px;
+	}
+	#modalButton{
+		font-size: 16px;
+		width: 40%;
+		margin: 15px auto 5px auto;
+	}
+	#modalContent{
+		font-size: 20px;
+	}
+	#closeX{
+		display: block;
+	}
+	#close{
+		display: none;
 	}
 
 }/*end mobile*/
