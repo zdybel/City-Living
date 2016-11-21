@@ -254,18 +254,21 @@ li{
 	z-index: 1;
 }
 #modalContent{
-	width: 75%;
+	width: 60%;
 	margin: 0px auto;
 	text-align: center;
 	background-color: #ffb6c1;
-	font-size: 34px;
+	font-size: 24px;
 	padding: 20px 0px;
 	position: relative;
+}
+.modal-header{
+	font-size: 28px
 }
 
 /*close button*/
 #close{
-	font-size: 38px;
+	font-size: 28px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -284,29 +287,29 @@ li{
 
 /*inputs*/
 #desire{
-	font-size: 34px;
-	height: 40px;
-	margin: 80px;
+	font-size: 22px;
+	height: 26px;
+	margin: 10px;
 }
 #duty{
-	font-size: 34px;
-	height: 40px;
-	margin: 80px;
+	font-size: 22px;
+	height: 26px;
+	margin: 10px;
 }
 #name{
-	font-size: 34px;
-	height: 40px;
-	margin: 80px;
+	font-size: 22px;
+	height: 26px;
+	margin: 10px;
 }
 #modalContact{
-	font-size: 34px;
-	height: 40px;
-	margin: 80px;
+	font-size: 22px;
+	height: 26px;
+	margin: 10px;
 }
 
 /*button*/
 #modalButton{
-	font-size: 32px;
+	font-size: 28px;
 	width: 50%;
 	margin: 50px auto 30px auto;
 }
